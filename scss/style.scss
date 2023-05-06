@@ -250,3 +250,70 @@ body {
         background-color: var(--WHITE);
     }
 }
+
+// Meet Section
+.meet {
+    min-height: 720px;
+}
+.meet-row {
+    align-items: center;
+}
+.meet-content {
+    flex-direction: column;
+    align-items: center;
+    max-width: 756px;
+    width: 100%;
+}
+.meet-content-presenter-btn {
+    max-width: 85px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--CHARCOAL);
+    background-color: var(--ANTI-FLASH-WHITE);
+    border: none;
+    transition: ease-in-out .2s;
+    margin-bottom: 24px;
+    &:hover {
+        background-color: var(--LIGHT-GRAY)
+    }
+}
+.meet-content-title {
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 38px;
+    color: var(--SMOKY-BLACK);
+    margin-bottom: 32px;
+}
+.meet-content-desc {
+    max-width: 416px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--SMOKY-BLACK);
+    margin-bottom: 32px;
+}
+.meet-content-about-btn {
+    max-width: 165px;
+    height: 48px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--WHITE);
+    background-color: var(--RAISIN-BLACK);
+    transition: ease-in-out .2s;
+    &:hover {
+        color: var(--RAISIN-BLACK);
+        background-color: var(--WHITE);
+    }
+}
+.meet-img {
+    max-width: 756px;
+}
+.meet-img img {
+    height: 720px;
+    width: 100%;
+    display: block;
+}
