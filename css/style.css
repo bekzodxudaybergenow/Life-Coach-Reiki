@@ -529,4 +529,46 @@ body {
   max-width: 576px;
   width: 100%;
   display: block;
+}
+
+.recommend {
+  padding: 96px 0;
+}
+
+.recommend-row {
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+
+.recommed-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 592px;
+  width: 100%;
+  text-align: center;
+}
+
+.recommed-item-img {
+  margin-bottom: 28px;
+}
+
+.recommed-item-title {
+  flex-grow: 1;
+  max-width: 424px;
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  color: var(--DARK-JUNGLE-GREEN);
+  margin-bottom: 8px;
+}
+
+.recommed-item-desc {
+  max-width: 476px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--AUROMETALSAURUS);
 }/*# sourceMappingURL=style.css.map */
