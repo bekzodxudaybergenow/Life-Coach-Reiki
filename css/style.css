@@ -110,6 +110,7 @@ body {
 
 .header-row {
   align-items: center;
+  flex-wrap: wrap;
   min-height: 128px;
 }
 
@@ -127,6 +128,7 @@ body {
 
 .nav {
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-link {
@@ -148,6 +150,7 @@ body {
 
 .right-btns {
   width: 300px;
+  flex-wrap: wrap;
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
@@ -257,6 +260,11 @@ body {
 
 .hero-img {
   justify-content: center;
+}
+
+.hero-img img {
+  max-width: 1216px;
+  width: 100%;
 }
 
 .join-question {
@@ -410,12 +418,8 @@ body {
   background-color: var(--WHITE);
 }
 
-.meet-img {
-  max-width: 756px;
-}
-
 .meet-img img {
-  height: 720px;
+  max-width: 756px;
   width: 100%;
   display: block;
 }
@@ -439,6 +443,7 @@ body {
   -moz-column-gap: 32px;
        column-gap: 32px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .resouce-card {
