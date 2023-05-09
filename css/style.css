@@ -649,4 +649,123 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: var(--RAISIN-BLACK);
+  outline-color: var(--OCEAN-BOAT-BLUE);
+}
+
+.calendar {
+  background-color: var(--RAISIN-BLACK);
+  padding-bottom: 96px;
+  margin: 0 auto;
+}
+
+.calendar-row {
+  -moz-column-gap: 112px;
+       column-gap: 112px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.calendar-left-content {
+  max-width: 620px;
+  width: 100%;
+}
+
+.calendar-left-content-title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2px;
+  color: var(--ANDROID-GREEN);
+  margin-bottom: 12px;
+}
+
+.calendar-left-content-desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--WHITE);
+  margin-bottom: 20px;
+}
+
+.calendar-left-content-desc span {
+  position: relative;
+  padding-left: 24px;
+}
+
+.calendar-left-content-desc span:first-child::before,
+.calendar-left-content-desc span:last-child::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calendar-left-content-desc span:first-child::before {
+  background-image: url("../img/uk.png");
+}
+
+.calendar-left-content-desc span:last-child::before {
+  background-image: url("../img/us.png");
+}
+
+.calendar-content-left-btn {
+  max-width: 162px;
+  height: 36px;
+  font-family: var(--first-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 200px;
+  border: 1px solid var(--WHITE);
+  color: var(--WHITE);
+  background-color: transparent;
+  padding-left: 22px;
+  position: relative;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.calendar-content-left-btn::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  background-image: url("../img/add-white.svg");
+  background-size: cover;
+}
+.calendar-content-left-btn:hover::before {
+  background-image: url("../img/add-black.svg");
+}
+.calendar-content-left-btn:hover {
+  color: var(--RAISIN-BLACK);
+  background-color: var(--WHITE);
+}
+
+.calendar-right-content {
+  max-width: 484px;
+  width: 100%;
+}
+
+.calendar-right-content-title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2px;
+  color: var(--WHITE);
+  margin-bottom: 12px;
+}
+
+.calendar-right-content-desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--WHITE);
 }/*# sourceMappingURL=style.css.map */
