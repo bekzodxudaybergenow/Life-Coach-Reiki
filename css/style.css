@@ -15,6 +15,7 @@
   --SLATE-BLUE: #7E56D8;
   --RAISIN-BLACK: #211F1F;
   --SMOKY-BLACK: #100D0B;
+  --LIGHT-SILVER: #D0D5DD;
   --first-family: "Avenir LT Std", sans-serif;
   --second-family: "Fraunces", sans-serif;
   --third-family: "Inter", sans-serif;
@@ -571,4 +572,81 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: var(--AUROMETALSAURUS);
+}
+
+.sign-up {
+  width: 100%;
+  min-height: 204px;
+  background-color: var(--RAISIN-BLACK);
+  margin-top: 192px;
+}
+
+.sign-up-row {
+  max-width: 1216px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  padding: 64px;
+  border-radius: 16px;
+  background-color: var(--WHITE);
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.sign-up-title {
+  max-width: 583px;
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  color: var(--DARK-JUNGLE-GREEN);
+}
+
+.sign-up-form {
+  max-width: 473px;
+  flex-wrap: wrap;
+}
+
+.sign-up-form-input {
+  max-width: 360px;
+  font-family: var(--first-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--RAISIN-BLACK);
+  width: 100%;
+  height: 48px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--LIGHT-SILVER);
+  outline-color: var(--OCEAN-BOAT-BLUE);
+}
+
+.sign-up-form-btn {
+  max-width: 97px;
+  height: 48px;
+  margin-left: 16px;
+  color: var(--WHITE);
+  background-color: var(--RAISIN-BLACK);
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.sign-up-form-btn:hover {
+  color: var(--RAISIN-BLACK);
+  background-color: var(--WHITE);
+}
+
+.sign-up-form-desc {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--RAISIN-BLACK);
+  margin-top: 6px;
+}
+
+.sign-up-form-desc a {
+  font-family: var(--first-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--RAISIN-BLACK);
 }/*# sourceMappingURL=style.css.map */
